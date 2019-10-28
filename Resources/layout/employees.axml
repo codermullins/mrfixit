@@ -1,0 +1,39 @@
+﻿
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:weightSum="100"
+    android:id="@+id/linearLayout1" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="88"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:id="@+id/linearLayout2" >
+        <TextView
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textName"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:text="Employee ID"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textID" 
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>
